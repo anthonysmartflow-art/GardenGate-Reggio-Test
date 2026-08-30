@@ -1,4 +1,4 @@
-# Garden Gate — Reggio-direction homepage test
+# Garden Gate — Reggio template homepage test V2
 
 This is an unapproved Stage 7 comparison test, not the selected homepage, final copy, final design system, a production website, or a Stage 8 rendition.
 
@@ -27,8 +27,9 @@ npm run preview -- --host 127.0.0.1 --port 4171
 ## Project record
 
 - Destination: `/Users/anthonyrosenberger/Desktop/GardenGate-Reggio-Test/`
-- Assigned reference: `/Users/anthonyrosenberger/Desktop/GardenGate/06-design-research/screenshots/02-reggio-children-desktop.png`
+- Assigned primary reference: `/Users/anthonyrosenberger/Desktop/GardenGate/06-design-research/screenshots/02-reggio-children-desktop.png`
+- Responsive behavior reference: `https://www.reggiochildren.it/en/`
 - Source: `/Users/anthonyrosenberger/Desktop/GardenGate/` (read-only)
 - Design decisions and image provenance: `DESIGN-NOTES.md`
 
-The typography and color choices are exploratory Stage 7 candidates, not approved Garden Gate brand standards. Selected official-site photographs remain subject to final launch review for consent, photographer rights, crop, representation, currentness, identity, captions, and alternative text.
+The typography remains an exploratory Stage 7 choice. The Garden Gate blue palette is the verified palette assigned to this V2 test. Selected official-site photographs remain subject to final launch review for consent, photographer rights, crop, representation, currentness, identity, captions, and alternative text. Six added V2 photographs require explicit approval before any future public repository push or deployment.

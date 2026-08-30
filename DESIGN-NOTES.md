@@ -1,108 +1,77 @@
-# Stage 7 Reggio-direction design notes
+# Stage 7 V2 — Reggio template mapping
 
 ## Audience and single job
 
-The primary audience is prospective families and caregivers. The homepage's single job is to help them recognize Garden Gate's educational character, compare the complete program set, see evidence of the approach in practice, and reach the correct next step without confusing enrollment with support.
+The primary audience is prospective families and caregivers. The homepage must make Garden Gate's Reggio-inspired view of children and learning understandable, show the four program paths, establish belonging and place-based trust, and lead to the correct enrollment action without letting fundraising replace the family story.
 
 ## Design hypothesis
 
-Can an editorial, material-centered composition make Garden Gate's Reggio-inspired philosophy immediately understandable through children's real work, teacher observation, relationships, and documentation?
+Can the recognizable structure and pacing of the assigned Reggio Children homepage make Garden Gate's verified philosophy concrete while Garden Gate's own content, photography, blue palette, routes, and actions remain in full control?
 
-## Primary-reference analysis
+## Reference anatomy
 
-- **First impression:** Reggio Children's page opens with a large educational proposition and one energetic visual counterpoint. Its confidence comes from scale, restraint, and a fast shift from idea to evidence.
-- **Header and navigation:** A slim context row and a simple primary row separate institutional utilities from major destinations. Garden Gate keeps its own exact two-row navigation and uses typography and rules—not the reference structure or colors—to separate the rows.
-- **Hero balance:** The reference gives the idea and image equal authority, with actions subordinate. Garden Gate reverses the visual polarity: its own collaboration photograph leads, while a concise view-of-the-child statement and two family actions sit beside it.
-- **Typography:** A reflective serif carries large ideas while a sturdy sans carries navigation and detail. This prototype tests Literata with Atkinson Hyperlegible using local/system fallbacks; it does not reproduce the reference pairing.
-- **Images, crops, captions, and text:** Images vary from broad documentary scenes to compact process details. Garden Gate uses adjacent captions as evidence and keeps text outside unstable crops.
-- **Order, backgrounds, whitespace, and pacing:** The reference alternates open white fields, compact structured groups, and restrained color bands. Garden Gate alternates an immersive opening, a quiet mission pause, a structured program ledger, an open inquiry sequence, place/trust evidence, dated news, enrollment, and compact support.
-- **Repeated modules:** Repetition changes scale and density. Garden Gate repeats one Inquiry Thread relationship while varying image size and text placement; it avoids a long run of equal cards.
-- **Primary and secondary actions:** The reference uses a consistent action vocabulary. Garden Gate preserves its smaller locked vocabulary, with family actions attached to relevant context and Donate visually distinct but secondary to the family story.
-- **Credibility and evidence:** The reference makes philosophy concrete through practices, publishing, research, and places. Garden Gate uses only its own documentary photography, founded-in-1999 context, Featherstone location, and clearly dated 2025–26 first-party records.
-- **Footer:** The reference footer is broad and institutional. Garden Gate uses the locked Explore, Families, Connect, and Policies groups plus verified direct contact and social destinations.
-- **Desktop-to-mobile transformation:** Multi-column groups become a single narrative column and navigation becomes a contained menu. Garden Gate keeps Logo, Menu, and Donate visible, preserves all labels and order in the menu, and moves the Inquiry Thread from a left caption rail to a top rule.
+The saved 1425 × 7337 desktop screenshot is the primary composition record. The live page was also inspected at 1440 and 390 pixels. The screenshot includes repeated modules created by stitched capture/carousel behavior; each actual module is mapped once below.
 
-## Visual plan
+| Reference module | Approximate structure | Garden Gate mapping |
+| --- | --- | --- |
+| Slim context bar + compact main header | About 28 px utility row and 76 px main row; small sans navigation on white | Exact two-row Garden Gate navigation: a thin `#539EDF` utility row and clean white primary row; text wordmark; direct Donate; disabled Em Português |
+| Editorial opening | About 650 px; 43/57 text-to-visual balance; large serif statement at left, energetic image/mark field at right; generous white space | Mission and view-of-the-child statement at left; ASSET-253 as the large relationship/material image with ASSET-005 and ASSET-006 as offset process details; Explore Programs and See Our Approach stay compact |
+| Highlight field | About 600 px; full light-gray field, 55/45 text-to-offset-card relationship, image card crossing the field's internal axis | One dated May 29, 2026 Garden Gate highlight with ASSET-251 in a lifted image card; the field leads to News & Resources without inventing an event |
+| Learning collection | Centered 196 px introduction followed by a 3-card grid about 550 px high; narrow image bands, thin card edges, compact actions | Centered programs introduction followed by four program cards: Studio One, Studio Two, Kindergarten, and Summer; four across at wide desktop, then two and one |
+| Approach band + circular bridge | Roughly 400 px pale color field with a centered statement; circular photograph overlaps the top edge | Pale Garden Gate blue field with the Reggio-inspired approach proposition; circular ASSET-250 bridge represents relationship and belonging without copying reference artwork |
+| Practice/resource collection | Centered introduction, then a denser repeated-card module around 650–700 px; controlled text and image areas | Four observable-practice cards: observation and documentation, projects over time, materials and art, play and relationships; ASSET-254, ASSET-139, ASSET-007, and ASSET-253 support the cards |
+| Publishing/research/atelier/centre rows | Alternating image/text rows with 40/60 and 55/45 balances; mixed rectangular and circular crops; gaps around 90–140 px | Belonging and family partnership, outdoor inquiry, and Featherstone/history/nonprofit trust; ASSET-250, ASSET-251, ASSET-032, and ASSET-264 provide square, vertical, wide, and circular shapes |
+| Visit/contact cards | Centered heading followed by two pale information fields | Dated News & Resources records and a pale family-first enrollment bridge; Begin Enrollment remains the primary action |
+| Keep-in-touch region + footer | Broad light-gray institutional region, then a dense multi-column conclusion | Compact blue support region with separate Donate and Why Support Matters actions, followed by a pale-blue identity/contact tier and deep-blue Explore/Families/Connect/Policies tier |
 
-### Color
+## Proportions, grid, and pacing
 
-- Mineral canvas: `#f1f3ef`
-- Paper white: `#fcfdf9`
-- Blue-black ink: `#172a35`
-- Lichen field: `#ced7bd`
-- Sea field: `#c8dce1`
-- Material cobalt: `#2858a7`
-- Donate berry: `#9f234e`
+- Desktop content width: approximately 1260–1320 px, aligned to a 12-column grid with 24–28 px gutters.
+- Editorial opening: 5 columns for copy and 7 for imagery; headline held near 9–10 words per line; 92–120 px vertical padding.
+- Highlight field: full-width background with a centered two-column inner grid; image card about 360–430 px wide and offset vertically by 48–72 px.
+- Program and practice cards: four across above 1180 px, two across at tablet widths, one at phone widths; images occupy about 42–48% of card height.
+- Conceptual band: 480–560 px at desktop, with a 230–280 px circular image interrupting its upper edge.
+- Institutional rows: max 1120–1200 px, alternating 5/7 and 6/6 relationships, with 110–150 px between rows and deliberately different crop shapes.
+- Mobile: single-column editorial sequence; 28–40 px horizontal padding, 64–88 px section gaps, full-width cards, and visual fields retained as pauses instead of flattened away.
+- Background rhythm: white opening → light gray dated highlight → white program collection → pale blue approach band → white practice collection → open white staggered rows → light gray news → pale blue enrollment → deep blue support/footer.
 
-The colors are exploratory Stage 7 roles drawn from the selected Garden Gate images, not approved brand standards.
+## Selected Garden Gate photographs
 
-### Typography
+The complete Stage 2 inventory was reconciled (284 inventory rows; 281 currently reviewable local images) and the reviewable library was inspected in asset-ID order through eight contact sheets. The chosen files cover close material detail, medium relationships, and wider environment/context without using any Reggio asset.
 
-- Reflective display: Literata, Georgia, serif.
-- Navigation, body, actions, labels, and captions: Atkinson Hyperlegible, Arial, sans-serif.
-- Fonts are open-source candidates loaded with documented fallbacks. The prototype remains readable if remote font loading is unavailable.
+- **ASSET-253** — children and an educator using translucent tiles outdoors; primary opening image and relationship practice.
+- **ASSET-005** — painting and flowers on a work table; opening process detail and Studio One card.
+- **ASSET-009** — Garden Gate's low building behind its painted fence; Featherstone campus context.
+- **ASSET-006** — a child painting at a material-rich table; Studio Two / art-process card.
+- **ASSET-007** — hands fitting wood and metal pieces to clay; materials, construction, and revision.
+- **ASSET-254** — children drawing in sketchbooks near displayed work; observation and documentation.
+- **ASSET-264** — two children reading/drawing on an outdoor deck; Summer, place, and Featherstone context.
+- **ASSET-139** — a small group working together with clay and tools; projects over time and collaboration.
+- **ASSET-250** — two children holding hands outdoors; circular relationship/belonging bridge.
+- **ASSET-251** — children moving through a meadow; dated outdoor highlight and wider environmental inquiry.
+- **ASSET-032** — children working with materials in a studio setting; institutional/history row.
 
-### Layout
+All eleven are retained official-site photographs. Five were separately approved for public repository publication in the earlier round (ASSET-253, ASSET-254, ASSET-006, ASSET-007, ASSET-264). The six additional V2 selections remain local and require explicit publication/launch rights review for current parent or guardian consent, photographer rights, crop, context, representation, and final alt text before any future push or deployment.
 
-Use a twelve-column desktop editorial grid with intentionally unequal image/text spans, a six-column tablet grid, and a single phone column. Programs become a ruled comparison ledger. Mission, approach, belonging, place, enrollment, and support remain open compositions.
+## Typography and color
 
-### Signature: The Inquiry Thread
+- Reflective display: Literata, an open-source humanist serif, with Georgia fallback.
+- Functional text: Atkinson Hyperlegible, an open-source humanist sans, with Arial fallback.
+- Dominant colors: Garden Gate blue `#539EDF`, deep action blue `#1470AF`, white `#FFFFFF`, black `#000000`, and light gray `#EAEAEE`.
+- Derived supporting tints: `#EAF4FC`, `#D6EAF9`, and an accessible deep footer blue derived from `#1470AF`.
+- Rectangles remain sharp or only lightly softened; borders and underlined text links carry most interaction styling. Donate always uses deep action blue.
 
-A continuous blue rule and aligned caption rail connect six evidence-bearing moves: questions, observation, materials, collaboration, outdoor inquiry, and reflection. Each point states a teacher/child relationship visible in the adjoining content. The thread encodes how an idea develops; it is not decorative numbering.
+## First-pass patterns to remove
 
-## Composition sketch
+- The old mineral canvas, lichen/sea fields, berry Donate color, and dark green/blue-black visual identity.
+- The invented Inquiry Thread, caption rail, and pedagogical sequence that competed with the assigned template.
+- The program ledger/table and bespoke split modules that made the first test resemble the other Garden Gate directions.
+- The oversized generic hero scale, sticky place ledger, and long run of one-off compositions.
+- The old dark support block and single-tier footer.
+- Any obsolete CSS tied to the old thread, ledger, or color tokens; V2 replaces the stylesheet instead of stacking overrides.
 
-```text
-UTILITY --------------------------------------------------------
-WORDMARK  PROGRAMS  APPROACH  ABOUT  NEWS  ENROLL  DONATE  PT
+## What is reproduced and what is protected
 
-| view-of-child statement |  ONE LARGE COLLABORATION PHOTO      |
-| actions                 |  caption on Inquiry Thread          |
+Reproduced at high fidelity: the broad module order, large-scale proportions, open-white-to-color-field rhythm, centered introductions, repeated thin-edged cards, offset image card, circular bridge, staggered institutional rows, compact action placement, and substantial organized footer.
 
-          quiet mission statement + small observation image
-
-PROGRAM LEDGER ================================================
-Studio One | Studio Two | Kindergarten | Summer
-
-THREAD | question ----- image / observable practice
-       | observation ----------- text / drawing image
-       | materials ----- paint + clay / project copy
-       | collaboration -------- belonging / family partnership
-       | outdoor inquiry ------------------ place image
-       | reflection ---- dated evidence / trust
-
-DATED NEWS ----------- DATED NEWS
-
-ENROLLMENT BRIDGE (family-first)
-COMPACT SUPPORT: Donate + Why Support Matters
-
-FOOTER: Explore | Families | Connect | Policies | Contact
-```
-
-## Selected Garden Gate assets and roles
-
-Before retaining these selections, the full Stage 2 inventory was reconciled and all 282 retained images were visually reviewed in asset-ID order. The broader collection includes strong classroom, construction, outdoor, documentation, portrait, mark, graphic, collage, and historical material. The final five were chosen because they form one legible sequence without duplicate scenes, staff-currentness dependencies, dated promotion, text-heavy creative work, or visible third-party marks.
-
-- **ASSET-253:** opening collaboration image; children and an educator working with translucent tiles outdoors. Role: relationships, light, materials, and joint inquiry.
-- **ASSET-254:** observation/documentation image; children drawing in a gallery-like learning setting. Role: sustained looking and representing ideas. Its broader source context and exact activity remain subject to later caption review.
-- **ASSET-006:** painting process close-up. Role: art materials as tools for investigation and communication.
-- **ASSET-007:** clay construction close-up. Role: building, testing, and revising with tools and open-ended materials.
-- **ASSET-264:** children reading/drawing on the campus deck. Role: the connection among learning, relationship, and place. The caption says only what is visibly supported and locates Garden Gate on the Featherstone campus without a property claim.
-
-All five are retained official-site photographs treated as user-cleared for this project. They remain subject to later launch review for consent, photographer rights, crop, representation, currentness, identity, and final captions.
-
-## Borrowed only at pattern level
-
-- A confident educational proposition followed quickly by observable practice.
-- Contrasting reflective and practical type roles.
-- Varied documentary image scale and generous separation between conceptual and structured content.
-- Captions, dates, and evidence treated as designed information.
-- A mobile transformation that retains hierarchy without copying desktop composition.
-
-## Deliberately not copied
-
-No Reggio Children wording, imagery, child-made marks, orange action system, peach/blue/green category fields, typography pairing, product-card system, section order, navigation, animation, branded interaction, or identity appears in the prototype.
-
-## Pre-build critique and correction
-
-The initial risk was a familiar warm-cream school site with large serif statements, friendly cards, and decorative captions. The revised plan removes the generic cream/terracotta look, avoids rounded card walls and tiny uppercase labels, turns programs into a ruled comparison ledger, and makes the Inquiry Thread carry a real pedagogical sequence. Visual energy comes from Garden Gate's photographs and cobalt evidence rail; surrounding controls stay square, quiet, and practical.
+Protected from copying: no Reggio Children wording, logo, photographs, illustrations, child-made marks, icons, products, claims, proprietary font pairing, orange action system, or branded interaction appears. Garden Gate's verified copy, photographs, palette, routes, and nonprofit language replace all third-party identity and content.
