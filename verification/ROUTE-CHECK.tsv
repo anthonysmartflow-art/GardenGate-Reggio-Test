@@ -1,0 +1,76 @@
+route	kind	canonical_or_expected	browser_1440	browser_1024	browser_768	browser_390	browser_320	h1	overflow	console	desktop_screenshot	mobile_screenshot	notes
+/	fixed	/	pass	pass	pass	pass	pass	Children are capable thinkers.	pass	pass	verification/screenshots/desktop/home.png	verification/screenshots/mobile/home.png	Direct-loaded in the production browser build at all five required widths.
+/programs	fixed	/programs	pass	pass	pass	pass	pass	Learning grows through relationships, play, and inquiry.	pass	pass	verification/screenshots/desktop/programs.png	verification/screenshots/mobile/programs.png	Direct-loaded in the production browser build at all five required widths.
+/approach	fixed	/approach	pass	pass	pass	pass	pass	Children’s ideas become the work.	pass	pass	verification/screenshots/desktop/approach.png	verification/screenshots/mobile/approach.png	Direct-loaded in the production browser build at all five required widths.
+/about	fixed	/about	pass	pass	pass	pass	pass	A learning community rooted on Martha’s Vineyard.	pass	pass	verification/screenshots/desktop/about.png	verification/screenshots/mobile/about.png	Direct-loaded in the production browser build at all five required widths.
+/about/people	fixed	/about/people	pass	pass	pass	pass	pass	Educators and stewards of the community.	pass	pass	verification/screenshots/desktop/about--people.png	verification/screenshots/mobile/about--people.png	Direct-loaded in the production browser build at all five required widths.
+/news	fixed	/news	pass	pass	pass	pass	pass	The work, with a date attached.	pass	pass	verification/screenshots/desktop/news.png	verification/screenshots/mobile/news.png	Direct-loaded in the production browser build at all five required widths.
+/enrollment	fixed	/enrollment	pass	pass	pass	pass	pass	Begin with a conversation about fit.	pass	pass	verification/screenshots/desktop/enrollment.png	verification/screenshots/mobile/enrollment.png	Direct-loaded in the production browser build at all five required widths.
+/families	fixed	/families	pass	pass	pass	pass	pass	Dated records and direct contact, in one place.	pass	pass	verification/screenshots/desktop/families.png	verification/screenshots/mobile/families.png	Direct-loaded in the production browser build at all five required widths.
+/support	fixed	/support	pass	pass	pass	pass	pass	Support a nonprofit learning community.	pass	pass	verification/screenshots/desktop/support.png	verification/screenshots/mobile/support.png	Direct-loaded in the production browser build at all five required widths.
+/professional-development	fixed	/professional-development	pass	pass	pass	pass	pass	Learning with and from educational practice.	pass	pass	verification/screenshots/desktop/professional-development.png	verification/screenshots/mobile/professional-development.png	Direct-loaded in the production browser build at all five required widths.
+/employment	fixed	/employment	pass	pass	pass	pass	pass	Work in a reflective learning community.	pass	pass	verification/screenshots/desktop/employment.png	verification/screenshots/mobile/employment.png	Direct-loaded in the production browser build at all five required widths.
+/contact	fixed	/contact	pass	pass	pass	pass	pass	Connect directly with Garden Gate.	pass	pass	verification/screenshots/desktop/contact.png	verification/screenshots/mobile/contact.png	Direct-loaded in the production browser build at all five required widths.
+/privacy	fixed	/privacy	pass	pass	pass	pass	pass	Privacy	pass	pass	verification/screenshots/desktop/privacy.png	verification/screenshots/mobile/privacy.png	Direct-loaded in the production browser build at all five required widths.
+/accessibility	fixed	/accessibility	pass	pass	pass	pass	pass	Accessibility	pass	pass	verification/screenshots/desktop/accessibility.png	verification/screenshots/mobile/accessibility.png	Direct-loaded in the production browser build at all five required widths.
+/news/building-community-through-play-establishing-belonging	repeatable news record	/news/building-community-through-play-establishing-belonging	pass	pass	pass	pass	pass	Building Community through Play: Establishing Belonging	pass via shared template	pass	verification/screenshots/desktop/news--building-community-through-play-establishing-belonging.png	verification/screenshots/mobile/news--building-community-through-play-establishing-belonging.png	Representative record direct-loaded at all five widths.
+/news/supporting-an-inclusive-and-equitable-school-community	repeatable news record	/news/supporting-an-inclusive-and-equitable-school-community	template	template	template	template	template	Supporting an Inclusive and Equitable School Community	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/march-2024-newsletter	repeatable news record	/news/march-2024-newsletter	template	template	template	template	template	March 2024 Newsletter	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/the-nerdling	repeatable news record	/news/the-nerdling	template	template	template	template	template	The Nerdling	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/december-2023	repeatable news record	/news/december-2023	template	template	template	template	template	December 2023 Newsletter	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/november-2023-newsletter-g3swg	repeatable news record	/news/november-2023-newsletter-g3swg	template	template	template	template	template	November 2023 Newsletter	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/october-2023-newsletter	repeatable news record	/news/october-2023-newsletter	template	template	template	template	template	October 2023 Newsletter	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/september-2023-newsletter	repeatable news record	/news/september-2023-newsletter	template	template	template	template	template	September 2023 Newsletter	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/year-end-report-2022	repeatable news record	/news/year-end-report-2022	template	template	template	template	template	Year End Report 2022	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/year-end-report-2021	repeatable news record	/news/year-end-report-2021	template	template	template	template	template	Year End Report 2021	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/new-combined-kindergartenpreschool-program-at-garden-gate	repeatable news record	/news/new-combined-kindergartenpreschool-program-at-garden-gate	template	template	template	template	template	New Combined Kindergarten/Preschool Program at Garden Gate	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/taking-care-of-the-caregivers	repeatable news record	/news/taking-care-of-the-caregivers	template	template	template	template	template	Taking Care of the Caregivers	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/year-end-report-2020	repeatable news record	/news/year-end-report-2020	template	template	template	template	template	Year End Report 2020	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/silver-lining-story	repeatable news record	/news/silver-lining-story	template	template	template	template	template	Silver Lining Story	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/professional-development-2018	repeatable news record	/news/professional-development-2018	template	template	template	template	template	Professional Development	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/the-essential-elements	repeatable news record	/news/the-essential-elements	template	template	template	template	template	The Essential Elements	pass via shared template	pass			Generated from the same verified record template and included in the production build and sitemap.
+/news/baby-cow-scholarship-fund	repeatable news record	/news/baby-cow-scholarship-fund	pass	pass	pass	pass	pass	The Baby Cow Story and Scholarship Fund	pass via shared template	pass	verification/screenshots/desktop/news--baby-cow-scholarship-fund.png	verification/screenshots/mobile/news--baby-cow-scholarship-fund.png	Representative record direct-loaded at all five widths.
+/home	legacy redirect	/	pass							pass			Checked in the production browser build.
+/about-us	legacy redirect	/about	pass							pass			Checked in the production browser build.
+/our-mission	legacy redirect	/about	pass							pass			Checked in the production browser build.
+/our-story	legacy redirect	/about	pass							pass			Checked in the production browser build.
+/garden-gate-at-featherstone	legacy redirect	/about	pass							pass			Checked in the production browser build.
+/our-team	legacy redirect	/about/people	pass							pass			Checked in the production browser build.
+/our-programs	legacy redirect	/programs	pass							pass			Checked in the production browser build.
+/studio-classrooms	legacy redirect	/programs	pass							pass			Checked in the production browser build.
+/kindergarten	legacy redirect	/programs	pass							pass			Checked in the production browser build.
+/summer-at-gardengate	legacy redirect	/programs	pass							pass			Checked in the production browser build.
+/our-approach	legacy redirect	/approach	pass							pass			Checked in the production browser build.
+/ouroutdoorclassrooms	legacy redirect	/approach	pass							pass			Checked in the production browser build.
+/belonging	legacy redirect	/approach	pass							pass			Checked in the production browser build.
+/enrollment-application	legacy redirect	/enrollment	pass							pass			Checked in the production browser build.
+/articles-newsletters	legacy redirect	/news	pass							pass			Checked in the production browser build.
+/newsletters2025	legacy redirect	/news	pass							pass			Checked in the production browser build.
+/newsletters-press	legacy redirect	/news	pass							pass			Checked in the production browser build.
+/press	legacy redirect	/news	pass							pass			Checked in the production browser build.
+/archive	legacy redirect	/news	pass							pass			Checked in the production browser build.
+/2025-2026	legacy redirect	/news	pass							pass			Checked in the production browser build.
+/summer-newsletters	legacy redirect	/news	pass							pass			Checked in the production browser build.
+/donate	legacy redirect	/support	pass							pass			Checked in the production browser build.
+/professional-development	legacy redirect	/professional-development	pass							pass			Checked in the production browser build.
+/for-educators	legacy redirect	/professional-development	pass							pass			Checked in the production browser build.
+/employment-opportunities	legacy redirect	/employment	pass							pass			Checked in the production browser build.
+/questions	legacy redirect	/contact	pass							pass			Checked in the production browser build.
+/articles-newsletters/blog-post-one-39wtm	legacy redirect	/news/professional-development-2018	pass							pass			Checked in the production browser build.
+/articles-newsletters/oid0tejm6tuo4hriyq50mybfkk4z4b	legacy redirect	/news/the-essential-elements	pass							pass			Checked in the production browser build.
+/babycow	legacy redirect	/news/baby-cow-scholarship-fund	pass							pass			Checked in the production browser build.
+/articles-newsletters/building-community-through-play-establishing-belonging	legacy redirect	/news/building-community-through-play-establishing-belonging	pass							pass			Checked in the production browser build.
+/articles-newsletters/supporting-an-inclusive-and-equitable-school-community	legacy redirect	/news/supporting-an-inclusive-and-equitable-school-community	pass							pass			Checked in the production browser build.
+/articles-newsletters/march-2024-newsletter	legacy redirect	/news/march-2024-newsletter	pass							pass			Checked in the production browser build.
+/articles-newsletters/the-nerdling	legacy redirect	/news/the-nerdling	pass							pass			Checked in the production browser build.
+/articles-newsletters/december-2023	legacy redirect	/news/december-2023	pass							pass			Checked in the production browser build.
+/articles-newsletters/november-2023-newsletter-g3swg	legacy redirect	/news/november-2023-newsletter-g3swg	pass							pass			Checked in the production browser build.
+/articles-newsletters/october-2023-newsletter	legacy redirect	/news/october-2023-newsletter	pass							pass			Checked in the production browser build.
+/articles-newsletters/september-2023-newsletter	legacy redirect	/news/september-2023-newsletter	pass							pass			Checked in the production browser build.
+/articles-newsletters/year-end-report-2022	legacy redirect	/news/year-end-report-2022	pass							pass			Checked in the production browser build.
+/articles-newsletters/year-end-report-2021	legacy redirect	/news/year-end-report-2021	pass							pass			Checked in the production browser build.
+/articles-newsletters/new-combined-kindergartenpreschool-program-at-garden-gate	legacy redirect	/news/new-combined-kindergartenpreschool-program-at-garden-gate	pass							pass			Checked in the production browser build.
+/articles-newsletters/taking-care-of-the-caregivers	legacy redirect	/news/taking-care-of-the-caregivers	pass							pass			Checked in the production browser build.
+/articles-newsletters/year-end-report-2020	legacy redirect	/news/year-end-report-2020	pass							pass			Checked in the production browser build.
+/articles-newsletters/silver-lining-story	legacy redirect	/news/silver-lining-story	pass							pass			Checked in the production browser build.
+/em-portugues	deferred unavailable state	no active destination	pass	pass	pass	pass	pass	Portuguese content is still deferred.	pass	pass			Visible in navigation as an unlinked unavailable state; direct path renders a transparent deferred message.

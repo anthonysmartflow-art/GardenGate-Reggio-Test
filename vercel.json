@@ -1,0 +1,220 @@
+{
+  "redirects": [
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/our-mission",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/our-story",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/garden-gate-at-featherstone",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/our-team",
+      "destination": "/about/people",
+      "permanent": true
+    },
+    {
+      "source": "/our-programs",
+      "destination": "/programs",
+      "permanent": true
+    },
+    {
+      "source": "/studio-classrooms",
+      "destination": "/programs",
+      "permanent": true
+    },
+    {
+      "source": "/kindergarten",
+      "destination": "/programs",
+      "permanent": true
+    },
+    {
+      "source": "/summer-at-gardengate",
+      "destination": "/programs",
+      "permanent": true
+    },
+    {
+      "source": "/our-approach",
+      "destination": "/approach",
+      "permanent": true
+    },
+    {
+      "source": "/ouroutdoorclassrooms",
+      "destination": "/approach",
+      "permanent": true
+    },
+    {
+      "source": "/belonging",
+      "destination": "/approach",
+      "permanent": true
+    },
+    {
+      "source": "/enrollment-application",
+      "destination": "/enrollment",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters",
+      "destination": "/news",
+      "permanent": true
+    },
+    {
+      "source": "/newsletters2025",
+      "destination": "/news",
+      "permanent": true
+    },
+    {
+      "source": "/newsletters-press",
+      "destination": "/news",
+      "permanent": true
+    },
+    {
+      "source": "/press",
+      "destination": "/news",
+      "permanent": true
+    },
+    {
+      "source": "/archive",
+      "destination": "/news",
+      "permanent": true
+    },
+    {
+      "source": "/2025-2026",
+      "destination": "/news",
+      "permanent": true
+    },
+    {
+      "source": "/summer-newsletters",
+      "destination": "/news",
+      "permanent": true
+    },
+    {
+      "source": "/donate",
+      "destination": "/support",
+      "permanent": true
+    },
+    {
+      "source": "/for-educators",
+      "destination": "/professional-development",
+      "permanent": true
+    },
+    {
+      "source": "/employment-opportunities",
+      "destination": "/employment",
+      "permanent": true
+    },
+    {
+      "source": "/questions",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/blog-post-one-39wtm",
+      "destination": "/news/professional-development-2018",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/oid0tejm6tuo4hriyq50mybfkk4z4b",
+      "destination": "/news/the-essential-elements",
+      "permanent": true
+    },
+    {
+      "source": "/babycow",
+      "destination": "/news/baby-cow-scholarship-fund",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/building-community-through-play-establishing-belonging",
+      "destination": "/news/building-community-through-play-establishing-belonging",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/supporting-an-inclusive-and-equitable-school-community",
+      "destination": "/news/supporting-an-inclusive-and-equitable-school-community",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/march-2024-newsletter",
+      "destination": "/news/march-2024-newsletter",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/the-nerdling",
+      "destination": "/news/the-nerdling",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/december-2023",
+      "destination": "/news/december-2023",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/november-2023-newsletter-g3swg",
+      "destination": "/news/november-2023-newsletter-g3swg",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/october-2023-newsletter",
+      "destination": "/news/october-2023-newsletter",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/september-2023-newsletter",
+      "destination": "/news/september-2023-newsletter",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/year-end-report-2022",
+      "destination": "/news/year-end-report-2022",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/year-end-report-2021",
+      "destination": "/news/year-end-report-2021",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/new-combined-kindergartenpreschool-program-at-garden-gate",
+      "destination": "/news/new-combined-kindergartenpreschool-program-at-garden-gate",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/taking-care-of-the-caregivers",
+      "destination": "/news/taking-care-of-the-caregivers",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/year-end-report-2020",
+      "destination": "/news/year-end-report-2020",
+      "permanent": true
+    },
+    {
+      "source": "/articles-newsletters/silver-lining-story",
+      "destination": "/news/silver-lining-story",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

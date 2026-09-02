@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Prototype safeguard: remove the disallow only after launch approval.

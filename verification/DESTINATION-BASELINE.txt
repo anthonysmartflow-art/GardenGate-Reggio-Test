@@ -1,0 +1,5 @@
+## main...origin/main
+?? verification/DESTINATION-BASELINE.txt
+?? verification/SOURCE-MANIFEST-BEFORE.sha256
+de7bc22865a9e717f57f5cf6a17ce9fa17cf5024
+Excluded from source manifest: /Users/anthonyrosenberger/Desktop/GardenGate/tmp/** (generated render/cache tree).

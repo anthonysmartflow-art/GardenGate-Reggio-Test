@@ -51,7 +51,7 @@ The complete Stage 2 inventory was reconciled (284 inventory rows; 281 currently
 - **ASSET-251** — children moving through a meadow; dated outdoor highlight and wider environmental inquiry.
 - **ASSET-032** — children working with materials in a studio setting; institutional/history row.
 
-All eleven are retained official-site photographs. Five were separately approved for public repository publication in the earlier round (ASSET-253, ASSET-254, ASSET-006, ASSET-007, ASSET-264). The six additional V2 selections remain local and require explicit publication/launch rights review for current parent or guardian consent, photographer rights, crop, context, representation, and final alt text before any future push or deployment.
+All eleven are retained official-site photographs. The user separately approved the earlier five and six additional V2 selections for this Garden Gate public repository/Preview project. That prototype approval does not replace Garden Gate’s launch review for current parent or guardian consent, photographer rights, crop, context, representation, displayed creative work, and final alt text.
 
 ## Typography and color
 

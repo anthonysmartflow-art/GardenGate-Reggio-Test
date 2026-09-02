@@ -1,0 +1,1956 @@
+{
+  "baseUrl": "http://127.0.0.1:4171",
+  "generatedAt": "2026-09-02T01:54:54.121Z",
+  "routeChecks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "finalUrl": "/",
+      "title": "Garden Gate Child Development Center",
+      "h1Count": 1,
+      "h1": "Children are capable thinkers.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/programs",
+      "status": 200,
+      "finalUrl": "/programs",
+      "title": "Programs | Garden Gate",
+      "h1Count": 1,
+      "h1": "Learning grows through relationships, play, and inquiry.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/approach",
+      "status": 200,
+      "finalUrl": "/approach",
+      "title": "Our Approach | Garden Gate",
+      "h1Count": 1,
+      "h1": "Children’s ideas become the work.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/about",
+      "status": 200,
+      "finalUrl": "/about",
+      "title": "About | Garden Gate",
+      "h1Count": 1,
+      "h1": "A learning community rooted on Martha’s Vineyard.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/about/people",
+      "status": 200,
+      "finalUrl": "/about/people",
+      "title": "People | Garden Gate",
+      "h1Count": 1,
+      "h1": "Educators and stewards of the community.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/news",
+      "status": 200,
+      "finalUrl": "/news",
+      "title": "News & Resources | Garden Gate",
+      "h1Count": 1,
+      "h1": "The work, with a date attached.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/enrollment",
+      "status": 200,
+      "finalUrl": "/enrollment",
+      "title": "Enrollment | Garden Gate",
+      "h1Count": 1,
+      "h1": "Begin with a conversation about fit.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/families",
+      "status": 200,
+      "finalUrl": "/families",
+      "title": "Current Families | Garden Gate",
+      "h1Count": 1,
+      "h1": "Dated records and direct contact, in one place.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/support",
+      "status": 200,
+      "finalUrl": "/support",
+      "title": "Support | Garden Gate",
+      "h1Count": 1,
+      "h1": "Support a nonprofit learning community.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/professional-development",
+      "status": 200,
+      "finalUrl": "/professional-development",
+      "title": "For Educators | Garden Gate",
+      "h1Count": 1,
+      "h1": "Learning with and from educational practice.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/employment",
+      "status": 200,
+      "finalUrl": "/employment",
+      "title": "Employment | Garden Gate",
+      "h1Count": 1,
+      "h1": "Work in a reflective learning community.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/contact",
+      "status": 200,
+      "finalUrl": "/contact",
+      "title": "Contact | Garden Gate",
+      "h1Count": 1,
+      "h1": "Connect directly with Garden Gate.",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/privacy",
+      "status": 200,
+      "finalUrl": "/privacy",
+      "title": "Privacy | Garden Gate",
+      "h1Count": 1,
+      "h1": "Privacy",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/accessibility",
+      "status": 200,
+      "finalUrl": "/accessibility",
+      "title": "Accessibility | Garden Gate",
+      "h1Count": 1,
+      "h1": "Accessibility",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/news/building-community-through-play-establishing-belonging",
+      "status": 200,
+      "finalUrl": "/news/building-community-through-play-establishing-belonging",
+      "title": "Building Community through Play: Establishing Belonging | Garden Gate",
+      "h1Count": 1,
+      "h1": "Building Community through Play: Establishing Belonging",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "route": "/news/baby-cow-scholarship-fund",
+      "status": 200,
+      "finalUrl": "/news/baby-cow-scholarship-fund",
+      "title": "The Baby Cow Story and Scholarship Fund | Garden Gate",
+      "h1Count": 1,
+      "h1": "The Baby Cow Story and Scholarship Fund",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/",
+      "status": 200,
+      "finalUrl": "/",
+      "title": "Garden Gate Child Development Center",
+      "h1Count": 1,
+      "h1": "Children are capable thinkers.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/programs",
+      "status": 200,
+      "finalUrl": "/programs",
+      "title": "Programs | Garden Gate",
+      "h1Count": 1,
+      "h1": "Learning grows through relationships, play, and inquiry.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/approach",
+      "status": 200,
+      "finalUrl": "/approach",
+      "title": "Our Approach | Garden Gate",
+      "h1Count": 1,
+      "h1": "Children’s ideas become the work.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/about",
+      "status": 200,
+      "finalUrl": "/about",
+      "title": "About | Garden Gate",
+      "h1Count": 1,
+      "h1": "A learning community rooted on Martha’s Vineyard.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/about/people",
+      "status": 200,
+      "finalUrl": "/about/people",
+      "title": "People | Garden Gate",
+      "h1Count": 1,
+      "h1": "Educators and stewards of the community.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/news",
+      "status": 200,
+      "finalUrl": "/news",
+      "title": "News & Resources | Garden Gate",
+      "h1Count": 1,
+      "h1": "The work, with a date attached.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/enrollment",
+      "status": 200,
+      "finalUrl": "/enrollment",
+      "title": "Enrollment | Garden Gate",
+      "h1Count": 1,
+      "h1": "Begin with a conversation about fit.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/families",
+      "status": 200,
+      "finalUrl": "/families",
+      "title": "Current Families | Garden Gate",
+      "h1Count": 1,
+      "h1": "Dated records and direct contact, in one place.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/support",
+      "status": 200,
+      "finalUrl": "/support",
+      "title": "Support | Garden Gate",
+      "h1Count": 1,
+      "h1": "Support a nonprofit learning community.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/professional-development",
+      "status": 200,
+      "finalUrl": "/professional-development",
+      "title": "For Educators | Garden Gate",
+      "h1Count": 1,
+      "h1": "Learning with and from educational practice.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/employment",
+      "status": 200,
+      "finalUrl": "/employment",
+      "title": "Employment | Garden Gate",
+      "h1Count": 1,
+      "h1": "Work in a reflective learning community.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/contact",
+      "status": 200,
+      "finalUrl": "/contact",
+      "title": "Contact | Garden Gate",
+      "h1Count": 1,
+      "h1": "Connect directly with Garden Gate.",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/privacy",
+      "status": 200,
+      "finalUrl": "/privacy",
+      "title": "Privacy | Garden Gate",
+      "h1Count": 1,
+      "h1": "Privacy",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/accessibility",
+      "status": 200,
+      "finalUrl": "/accessibility",
+      "title": "Accessibility | Garden Gate",
+      "h1Count": 1,
+      "h1": "Accessibility",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/news/building-community-through-play-establishing-belonging",
+      "status": 200,
+      "finalUrl": "/news/building-community-through-play-establishing-belonging",
+      "title": "Building Community through Play: Establishing Belonging | Garden Gate",
+      "h1Count": 1,
+      "h1": "Building Community through Play: Establishing Belonging",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "laptop",
+      "width": 1024,
+      "route": "/news/baby-cow-scholarship-fund",
+      "status": 200,
+      "finalUrl": "/news/baby-cow-scholarship-fund",
+      "title": "The Baby Cow Story and Scholarship Fund | Garden Gate",
+      "h1Count": 1,
+      "h1": "The Baby Cow Story and Scholarship Fund",
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/",
+      "status": 200,
+      "finalUrl": "/",
+      "title": "Garden Gate Child Development Center",
+      "h1Count": 1,
+      "h1": "Children are capable thinkers.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/programs",
+      "status": 200,
+      "finalUrl": "/programs",
+      "title": "Programs | Garden Gate",
+      "h1Count": 1,
+      "h1": "Learning grows through relationships, play, and inquiry.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/approach",
+      "status": 200,
+      "finalUrl": "/approach",
+      "title": "Our Approach | Garden Gate",
+      "h1Count": 1,
+      "h1": "Children’s ideas become the work.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/about",
+      "status": 200,
+      "finalUrl": "/about",
+      "title": "About | Garden Gate",
+      "h1Count": 1,
+      "h1": "A learning community rooted on Martha’s Vineyard.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/about/people",
+      "status": 200,
+      "finalUrl": "/about/people",
+      "title": "People | Garden Gate",
+      "h1Count": 1,
+      "h1": "Educators and stewards of the community.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/news",
+      "status": 200,
+      "finalUrl": "/news",
+      "title": "News & Resources | Garden Gate",
+      "h1Count": 1,
+      "h1": "The work, with a date attached.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/enrollment",
+      "status": 200,
+      "finalUrl": "/enrollment",
+      "title": "Enrollment | Garden Gate",
+      "h1Count": 1,
+      "h1": "Begin with a conversation about fit.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/families",
+      "status": 200,
+      "finalUrl": "/families",
+      "title": "Current Families | Garden Gate",
+      "h1Count": 1,
+      "h1": "Dated records and direct contact, in one place.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/support",
+      "status": 200,
+      "finalUrl": "/support",
+      "title": "Support | Garden Gate",
+      "h1Count": 1,
+      "h1": "Support a nonprofit learning community.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/professional-development",
+      "status": 200,
+      "finalUrl": "/professional-development",
+      "title": "For Educators | Garden Gate",
+      "h1Count": 1,
+      "h1": "Learning with and from educational practice.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/employment",
+      "status": 200,
+      "finalUrl": "/employment",
+      "title": "Employment | Garden Gate",
+      "h1Count": 1,
+      "h1": "Work in a reflective learning community.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/contact",
+      "status": 200,
+      "finalUrl": "/contact",
+      "title": "Contact | Garden Gate",
+      "h1Count": 1,
+      "h1": "Connect directly with Garden Gate.",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/privacy",
+      "status": 200,
+      "finalUrl": "/privacy",
+      "title": "Privacy | Garden Gate",
+      "h1Count": 1,
+      "h1": "Privacy",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/accessibility",
+      "status": 200,
+      "finalUrl": "/accessibility",
+      "title": "Accessibility | Garden Gate",
+      "h1Count": 1,
+      "h1": "Accessibility",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/news/building-community-through-play-establishing-belonging",
+      "status": 200,
+      "finalUrl": "/news/building-community-through-play-establishing-belonging",
+      "title": "Building Community through Play: Establishing Belonging | Garden Gate",
+      "h1Count": 1,
+      "h1": "Building Community through Play: Establishing Belonging",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "route": "/news/baby-cow-scholarship-fund",
+      "status": 200,
+      "finalUrl": "/news/baby-cow-scholarship-fund",
+      "title": "The Baby Cow Story and Scholarship Fund | Garden Gate",
+      "h1Count": 1,
+      "h1": "The Baby Cow Story and Scholarship Fund",
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "finalUrl": "/",
+      "title": "Garden Gate Child Development Center",
+      "h1Count": 1,
+      "h1": "Children are capable thinkers.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/programs",
+      "status": 200,
+      "finalUrl": "/programs",
+      "title": "Programs | Garden Gate",
+      "h1Count": 1,
+      "h1": "Learning grows through relationships, play, and inquiry.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/approach",
+      "status": 200,
+      "finalUrl": "/approach",
+      "title": "Our Approach | Garden Gate",
+      "h1Count": 1,
+      "h1": "Children’s ideas become the work.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/about",
+      "status": 200,
+      "finalUrl": "/about",
+      "title": "About | Garden Gate",
+      "h1Count": 1,
+      "h1": "A learning community rooted on Martha’s Vineyard.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/about/people",
+      "status": 200,
+      "finalUrl": "/about/people",
+      "title": "People | Garden Gate",
+      "h1Count": 1,
+      "h1": "Educators and stewards of the community.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/news",
+      "status": 200,
+      "finalUrl": "/news",
+      "title": "News & Resources | Garden Gate",
+      "h1Count": 1,
+      "h1": "The work, with a date attached.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/enrollment",
+      "status": 200,
+      "finalUrl": "/enrollment",
+      "title": "Enrollment | Garden Gate",
+      "h1Count": 1,
+      "h1": "Begin with a conversation about fit.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/families",
+      "status": 200,
+      "finalUrl": "/families",
+      "title": "Current Families | Garden Gate",
+      "h1Count": 1,
+      "h1": "Dated records and direct contact, in one place.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/support",
+      "status": 200,
+      "finalUrl": "/support",
+      "title": "Support | Garden Gate",
+      "h1Count": 1,
+      "h1": "Support a nonprofit learning community.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/professional-development",
+      "status": 200,
+      "finalUrl": "/professional-development",
+      "title": "For Educators | Garden Gate",
+      "h1Count": 1,
+      "h1": "Learning with and from educational practice.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/employment",
+      "status": 200,
+      "finalUrl": "/employment",
+      "title": "Employment | Garden Gate",
+      "h1Count": 1,
+      "h1": "Work in a reflective learning community.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/contact",
+      "status": 200,
+      "finalUrl": "/contact",
+      "title": "Contact | Garden Gate",
+      "h1Count": 1,
+      "h1": "Connect directly with Garden Gate.",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/privacy",
+      "status": 200,
+      "finalUrl": "/privacy",
+      "title": "Privacy | Garden Gate",
+      "h1Count": 1,
+      "h1": "Privacy",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/accessibility",
+      "status": 200,
+      "finalUrl": "/accessibility",
+      "title": "Accessibility | Garden Gate",
+      "h1Count": 1,
+      "h1": "Accessibility",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/news/building-community-through-play-establishing-belonging",
+      "status": 200,
+      "finalUrl": "/news/building-community-through-play-establishing-belonging",
+      "title": "Building Community through Play: Establishing Belonging | Garden Gate",
+      "h1Count": 1,
+      "h1": "Building Community through Play: Establishing Belonging",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "phone",
+      "width": 390,
+      "route": "/news/baby-cow-scholarship-fund",
+      "status": 200,
+      "finalUrl": "/news/baby-cow-scholarship-fund",
+      "title": "The Baby Cow Story and Scholarship Fund | Garden Gate",
+      "h1Count": 1,
+      "h1": "The Baby Cow Story and Scholarship Fund",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/",
+      "status": 200,
+      "finalUrl": "/",
+      "title": "Garden Gate Child Development Center",
+      "h1Count": 1,
+      "h1": "Children are capable thinkers.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/programs",
+      "status": 200,
+      "finalUrl": "/programs",
+      "title": "Programs | Garden Gate",
+      "h1Count": 1,
+      "h1": "Learning grows through relationships, play, and inquiry.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/approach",
+      "status": 200,
+      "finalUrl": "/approach",
+      "title": "Our Approach | Garden Gate",
+      "h1Count": 1,
+      "h1": "Children’s ideas become the work.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/about",
+      "status": 200,
+      "finalUrl": "/about",
+      "title": "About | Garden Gate",
+      "h1Count": 1,
+      "h1": "A learning community rooted on Martha’s Vineyard.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/about/people",
+      "status": 200,
+      "finalUrl": "/about/people",
+      "title": "People | Garden Gate",
+      "h1Count": 1,
+      "h1": "Educators and stewards of the community.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/news",
+      "status": 200,
+      "finalUrl": "/news",
+      "title": "News & Resources | Garden Gate",
+      "h1Count": 1,
+      "h1": "The work, with a date attached.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/enrollment",
+      "status": 200,
+      "finalUrl": "/enrollment",
+      "title": "Enrollment | Garden Gate",
+      "h1Count": 1,
+      "h1": "Begin with a conversation about fit.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/families",
+      "status": 200,
+      "finalUrl": "/families",
+      "title": "Current Families | Garden Gate",
+      "h1Count": 1,
+      "h1": "Dated records and direct contact, in one place.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/support",
+      "status": 200,
+      "finalUrl": "/support",
+      "title": "Support | Garden Gate",
+      "h1Count": 1,
+      "h1": "Support a nonprofit learning community.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/professional-development",
+      "status": 200,
+      "finalUrl": "/professional-development",
+      "title": "For Educators | Garden Gate",
+      "h1Count": 1,
+      "h1": "Learning with and from educational practice.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/employment",
+      "status": 200,
+      "finalUrl": "/employment",
+      "title": "Employment | Garden Gate",
+      "h1Count": 1,
+      "h1": "Work in a reflective learning community.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/contact",
+      "status": 200,
+      "finalUrl": "/contact",
+      "title": "Contact | Garden Gate",
+      "h1Count": 1,
+      "h1": "Connect directly with Garden Gate.",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/privacy",
+      "status": 200,
+      "finalUrl": "/privacy",
+      "title": "Privacy | Garden Gate",
+      "h1Count": 1,
+      "h1": "Privacy",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/accessibility",
+      "status": 200,
+      "finalUrl": "/accessibility",
+      "title": "Accessibility | Garden Gate",
+      "h1Count": 1,
+      "h1": "Accessibility",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/news/building-community-through-play-establishing-belonging",
+      "status": 200,
+      "finalUrl": "/news/building-community-through-play-establishing-belonging",
+      "title": "Building Community through Play: Establishing Belonging | Garden Gate",
+      "h1Count": 1,
+      "h1": "Building Community through Play: Establishing Belonging",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": "narrow",
+      "width": 320,
+      "route": "/news/baby-cow-scholarship-fund",
+      "status": 200,
+      "finalUrl": "/news/baby-cow-scholarship-fund",
+      "title": "The Baby Cow Story and Scholarship Fund | Garden Gate",
+      "h1Count": 1,
+      "h1": "The Baby Cow Story and Scholarship Fund",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "brokenImages": [],
+      "missingAlt": [],
+      "portugueseLinks": [],
+      "donateHrefs": [
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate",
+        "https://www.gardengatemv.org/donate"
+      ],
+      "overflow": false
+    }
+  ],
+  "consoleErrors": [],
+  "mobileMenu": {
+    "menuOpen": "true",
+    "menuClosed": "false",
+    "focusRestored": true,
+    "labels": [
+      "Programs",
+      "Our Approach",
+      "About",
+      "People",
+      "News & Resources",
+      "Enrollment",
+      "Donate",
+      "Em Português Unavailable",
+      "Current Families",
+      "For Educators",
+      "Employment",
+      "Support",
+      "Contact"
+    ]
+  },
+  "desktopNavigation": {
+    "utility": [
+      "Current Families",
+      "For Educators",
+      "Employment",
+      "Support",
+      "Contact"
+    ],
+    "main": [
+      "Programs",
+      "Our Approach",
+      "About",
+      "News & Resources",
+      "Enrollment"
+    ],
+    "portugueseTag": "SPAN"
+  },
+  "redirects": [
+    {
+      "from": "/home",
+      "expected": "/",
+      "actual": "/"
+    },
+    {
+      "from": "/about-us",
+      "expected": "/about",
+      "actual": "/about"
+    },
+    {
+      "from": "/our-mission",
+      "expected": "/about",
+      "actual": "/about"
+    },
+    {
+      "from": "/our-story",
+      "expected": "/about",
+      "actual": "/about"
+    },
+    {
+      "from": "/garden-gate-at-featherstone",
+      "expected": "/about",
+      "actual": "/about"
+    },
+    {
+      "from": "/our-team",
+      "expected": "/about/people",
+      "actual": "/about/people"
+    },
+    {
+      "from": "/our-programs",
+      "expected": "/programs",
+      "actual": "/programs"
+    },
+    {
+      "from": "/studio-classrooms",
+      "expected": "/programs",
+      "actual": "/programs"
+    },
+    {
+      "from": "/kindergarten",
+      "expected": "/programs",
+      "actual": "/programs"
+    },
+    {
+      "from": "/summer-at-gardengate",
+      "expected": "/programs",
+      "actual": "/programs"
+    },
+    {
+      "from": "/our-approach",
+      "expected": "/approach",
+      "actual": "/approach"
+    },
+    {
+      "from": "/ouroutdoorclassrooms",
+      "expected": "/approach",
+      "actual": "/approach"
+    },
+    {
+      "from": "/belonging",
+      "expected": "/approach",
+      "actual": "/approach"
+    },
+    {
+      "from": "/enrollment-application",
+      "expected": "/enrollment",
+      "actual": "/enrollment"
+    },
+    {
+      "from": "/articles-newsletters",
+      "expected": "/news",
+      "actual": "/news"
+    },
+    {
+      "from": "/newsletters2025",
+      "expected": "/news",
+      "actual": "/news"
+    },
+    {
+      "from": "/newsletters-press",
+      "expected": "/news",
+      "actual": "/news"
+    },
+    {
+      "from": "/press",
+      "expected": "/news",
+      "actual": "/news"
+    },
+    {
+      "from": "/archive",
+      "expected": "/news",
+      "actual": "/news"
+    },
+    {
+      "from": "/2025-2026",
+      "expected": "/news",
+      "actual": "/news"
+    },
+    {
+      "from": "/summer-newsletters",
+      "expected": "/news",
+      "actual": "/news"
+    },
+    {
+      "from": "/donate",
+      "expected": "/support",
+      "actual": "/support"
+    },
+    {
+      "from": "/professional-development",
+      "expected": "/professional-development",
+      "actual": "/professional-development"
+    },
+    {
+      "from": "/for-educators",
+      "expected": "/professional-development",
+      "actual": "/professional-development"
+    },
+    {
+      "from": "/employment-opportunities",
+      "expected": "/employment",
+      "actual": "/employment"
+    },
+    {
+      "from": "/questions",
+      "expected": "/contact",
+      "actual": "/contact"
+    },
+    {
+      "from": "/articles-newsletters/blog-post-one-39wtm",
+      "expected": "/news/professional-development-2018",
+      "actual": "/news/professional-development-2018"
+    },
+    {
+      "from": "/articles-newsletters/oid0tejm6tuo4hriyq50mybfkk4z4b",
+      "expected": "/news/the-essential-elements",
+      "actual": "/news/the-essential-elements"
+    },
+    {
+      "from": "/babycow",
+      "expected": "/news/baby-cow-scholarship-fund",
+      "actual": "/news/baby-cow-scholarship-fund"
+    },
+    {
+      "from": "/articles-newsletters/building-community-through-play-establishing-belonging",
+      "expected": "/news/building-community-through-play-establishing-belonging",
+      "actual": "/news/building-community-through-play-establishing-belonging"
+    },
+    {
+      "from": "/articles-newsletters/supporting-an-inclusive-and-equitable-school-community",
+      "expected": "/news/supporting-an-inclusive-and-equitable-school-community",
+      "actual": "/news/supporting-an-inclusive-and-equitable-school-community"
+    },
+    {
+      "from": "/articles-newsletters/march-2024-newsletter",
+      "expected": "/news/march-2024-newsletter",
+      "actual": "/news/march-2024-newsletter"
+    },
+    {
+      "from": "/articles-newsletters/the-nerdling",
+      "expected": "/news/the-nerdling",
+      "actual": "/news/the-nerdling"
+    },
+    {
+      "from": "/articles-newsletters/december-2023",
+      "expected": "/news/december-2023",
+      "actual": "/news/december-2023"
+    },
+    {
+      "from": "/articles-newsletters/november-2023-newsletter-g3swg",
+      "expected": "/news/november-2023-newsletter-g3swg",
+      "actual": "/news/november-2023-newsletter-g3swg"
+    },
+    {
+      "from": "/articles-newsletters/october-2023-newsletter",
+      "expected": "/news/october-2023-newsletter",
+      "actual": "/news/october-2023-newsletter"
+    },
+    {
+      "from": "/articles-newsletters/september-2023-newsletter",
+      "expected": "/news/september-2023-newsletter",
+      "actual": "/news/september-2023-newsletter"
+    },
+    {
+      "from": "/articles-newsletters/year-end-report-2022",
+      "expected": "/news/year-end-report-2022",
+      "actual": "/news/year-end-report-2022"
+    },
+    {
+      "from": "/articles-newsletters/year-end-report-2021",
+      "expected": "/news/year-end-report-2021",
+      "actual": "/news/year-end-report-2021"
+    },
+    {
+      "from": "/articles-newsletters/new-combined-kindergartenpreschool-program-at-garden-gate",
+      "expected": "/news/new-combined-kindergartenpreschool-program-at-garden-gate",
+      "actual": "/news/new-combined-kindergartenpreschool-program-at-garden-gate"
+    },
+    {
+      "from": "/articles-newsletters/taking-care-of-the-caregivers",
+      "expected": "/news/taking-care-of-the-caregivers",
+      "actual": "/news/taking-care-of-the-caregivers"
+    },
+    {
+      "from": "/articles-newsletters/year-end-report-2020",
+      "expected": "/news/year-end-report-2020",
+      "actual": "/news/year-end-report-2020"
+    },
+    {
+      "from": "/articles-newsletters/silver-lining-story",
+      "expected": "/news/silver-lining-story",
+      "actual": "/news/silver-lining-story"
+    }
+  ]
+}
