@@ -2064,50 +2064,160 @@ main:focus {
   color: var(--muted);
 }
 
-.people-groups {
+.people-page .page-hero--compact {
+  min-height: 440px;
+  padding-block: clamp(80px, 8vw, 120px);
+}
+
+.people-verification {
   display: grid;
-  grid-template-columns: minmax(250px, 0.52fr) minmax(0, 1fr);
-  column-gap: clamp(60px, 10vw, 150px);
+  grid-template-columns: minmax(190px, 0.3fr) minmax(0, 1fr);
+  gap: 32px;
+  padding: 28px 32px;
+  background: var(--pale-blue);
 }
 
-.people-groups > .section-intro {
-  grid-row: span 5;
+.people-verification strong {
+  font-size: 0.92rem;
 }
 
-.people-group {
-  padding: 0 0 56px;
+.people-verification p {
+  max-width: 72ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
-.people-group + .people-group {
-  padding-top: 56px;
-  border-top: 1px solid var(--black);
+.people-directory {
+  padding-block: clamp(90px, 9vw, 140px);
 }
 
-.people-group h2 {
-  font-size: clamp(1.7rem, 2.5vw, 2.6rem);
+.people-directory__intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.62fr);
+  gap: clamp(48px, 8vw, 120px);
+  align-items: end;
+  margin-bottom: clamp(64px, 7vw, 100px);
 }
 
-.people-group ul {
+.people-directory__intro h2 {
+  max-width: 12ch;
+  margin-bottom: 0;
+}
+
+.people-directory__intro > p {
+  max-width: 48ch;
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.people-portrait-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(56px, 7vw, 96px) clamp(28px, 4vw, 56px);
+  margin: 0;
+}
+
+.person-profile figure {
+  margin: 0;
+}
+
+.person-profile img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.person-profile figcaption {
+  padding-top: 22px;
+}
+
+.person-profile h3 {
+  margin-bottom: 8px;
+  font-size: clamp(1.45rem, 2vw, 2rem);
+}
+
+.person-profile figcaption > p:last-child {
+  max-width: 30ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.person-team {
+  margin-bottom: 9px;
+  color: var(--deep-blue);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.045em;
+}
+
+.people-additional {
+  padding-block: clamp(90px, 9vw, 135px);
+}
+
+.people-additional__layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.58fr) minmax(0, 1fr);
+  gap: clamp(60px, 9vw, 140px);
+}
+
+.people-additional__layout > header h2 {
+  max-width: 10ch;
+}
+
+.people-additional__layout > header > p:last-child {
+  max-width: 45ch;
+  margin: 0;
+  color: var(--muted);
+}
+
+.people-additional__groups {
+  display: grid;
+  gap: 70px;
+}
+
+.people-text-group h3 {
+  margin-bottom: 30px;
+  font-size: clamp(1.55rem, 2.2vw, 2.25rem);
+}
+
+.people-text-group ul {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 34px 42px;
+  gap: 28px 44px;
+  margin: 0;
 }
 
-.people-group li {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+.people-text-group li {
+  display: grid;
+  gap: 4px;
 }
 
-.people-group li strong {
+.people-text-group li strong {
   font-family: var(--serif);
-  font-size: 1.18rem;
+  font-size: 1.08rem;
   font-weight: 500;
 }
 
-.people-group li span {
+.people-text-group li span {
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.9rem;
+}
+
+.people-employment {
+  background: var(--white);
+}
+
+.people-employment .compact-callout {
+  min-height: 300px;
+  padding-block: 64px;
+}
+
+.people-employment .compact-callout h2 {
+  max-width: 18ch;
+  font-size: clamp(2.2rem, 3.5vw, 3.7rem);
 }
 
 .compact-callout {
@@ -2466,7 +2576,8 @@ main:focus {
   .owner-notice,
   .split-statement,
   .timeline-layout,
-  .people-groups,
+  .people-directory__intro,
+  .people-additional__layout,
   .news-content,
   .record-layout,
   .editorial-pair,
@@ -2497,19 +2608,28 @@ main:focus {
     position: static;
   }
 
-  .people-groups > .section-intro,
+  .people-directory__intro,
   .news-content > .section-intro {
-    grid-row: auto;
+    grid-template-columns: 1fr;
   }
 
-  .people-group ul {
-    grid-template-columns: 1fr;
+  .people-portrait-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .compact-callout {
     min-height: 0;
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .people-verification {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .people-additional__groups {
+    gap: 56px;
   }
 
   .archive-grid {
@@ -2620,5 +2740,36 @@ main:focus {
   .primary-action-row {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .people-page .page-hero--compact {
+    padding-block: 64px 72px;
+  }
+
+  .people-verification {
+    width: var(--shell);
+    padding: 24px;
+  }
+
+  .people-directory,
+  .people-additional {
+    padding-block: 72px;
+  }
+
+  .people-directory__intro {
+    margin-bottom: 52px;
+  }
+
+  .people-portrait-list,
+  .people-text-group ul {
+    grid-template-columns: 1fr;
+  }
+
+  .people-portrait-list {
+    gap: 52px;
+  }
+
+  .people-employment .compact-callout {
+    padding-block: 56px;
   }
 }

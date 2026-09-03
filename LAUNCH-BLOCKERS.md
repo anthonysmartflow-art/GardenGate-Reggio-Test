@@ -22,7 +22,7 @@ This prototype must not be treated as approved or production-ready until Garden 
 
 ## Rights, documents, and translations
 
-- The user approved the 11 selected local photographs for this Garden Gate repository/preview project. Garden Gate must still reconfirm launch rights for each final photograph: parent or guardian consent, photographer rights, subject identity, crop, context, representation, displayed creative work or third-party marks, captions, and alt text.
+- The user approved the original 11 selected photographs and nine adult team portraits for this Garden Gate repository/Preview project. Garden Gate must still reconfirm launch rights for every final photograph: depicted-person permission, parent or guardian consent where applicable, photographer rights, subject identity, crop, context, representation, displayed creative work or third-party marks, captions, and alt text.
 - Review every linked PDF for ownership, currentness, accessibility, file naming, download behavior, and whether it should be remediated, converted, replaced, or removed.
 - Keep Em Português inactive until Garden Gate approves ownership, translation, currentness, accessibility, navigation, service delivery, and review maintenance.
 

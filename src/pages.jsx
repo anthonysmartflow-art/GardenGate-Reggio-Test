@@ -127,13 +127,53 @@ export function AboutPage() {
 }
 
 export function PeoplePage() {
+  const yearRoundGroups = peopleGroups.slice(0, 3)
+  const additionalGroups = peopleGroups.slice(3)
+
   return (
-    <>
-      <PageHero eyebrow="About · People" title="Educators and stewards of the community." intro="This prototype preserves the staff and board roster captured in the Garden Gate source record while making its launch-current status explicit." image="/images/project-group.jpg" alt="Children and an educator work together around a project table." />
-      <OwnerNotice>Every name, title, role, group assignment, board position, biography, and photograph must be reconfirmed by Garden Gate immediately before launch. This is a captured roster, not a current-status claim.</OwnerNotice>
-      <section className="interior-section shell people-groups"><SectionIntro eyebrow="Captured roster" title="People by role"><p>No biographies or credentials were invented where the source did not establish them.</p></SectionIntro>{peopleGroups.map((group) => <section className="people-group" key={group.title}><h2>{group.title}</h2><ul>{group.people.map(([name, role]) => <li key={`${group.title}-${name}`}><strong>{name}</strong><span>{role}</span></li>)}</ul></section>)}</section>
-      <section className="pale-section"><div className="shell compact-callout"><div><p className="eyebrow">Interested in the work?</p><h2>Employment information is kept separate from the roster.</h2></div><TextLink href="/employment">View Employment</TextLink></div></section>
-    </>
+    <div className="people-page">
+      <PageHero compact eyebrow="About · People" title="Educators and stewards of the community." intro="Meet the people named in Garden Gate’s captured public roster, organized so families can understand each person’s role at a glance." />
+
+      <aside className="people-verification shell" aria-label="Roster verification note">
+        <strong>Launch verification needed</strong>
+        <p>Names, roles, and portraits reflect the captured source and must be reconfirmed before publication. The source provides matched portraits for the year-round team only.</p>
+      </aside>
+
+      <section className="people-directory" aria-labelledby="year-round-team-title">
+        <div className="shell">
+          <header className="people-directory__intro">
+            <div><p className="eyebrow">Year-round team</p><h2 id="year-round-team-title">The people alongside children each day.</h2></div>
+            <p>Leadership, administration, and classroom educators share responsibility for relationships, environments, observation, and the daily life of the school.</p>
+          </header>
+          <ul className="people-portrait-list">
+            {yearRoundGroups.flatMap((group) => group.people.map(([name, role, portrait]) => (
+              <li className="person-profile" key={`${group.title}-${name}`}>
+                <figure>
+                  <img src={portrait} alt={`Portrait of ${name}.`} loading="lazy" />
+                  <figcaption><p className="person-team">{group.title}</p><h3>{name}</h3><p>{role}</p></figcaption>
+                </figure>
+              </li>
+            )))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="people-additional pale-section" aria-labelledby="additional-roster-title">
+        <div className="shell people-additional__layout">
+          <header><p className="eyebrow">Additional captured roles</p><h2 id="additional-roster-title">Summer and governance</h2><p>These names remain visible as part of the source-grounded roster. Individual source-matched portraits were not available for these entries.</p></header>
+          <div className="people-additional__groups">
+            {additionalGroups.map((group) => (
+              <section className="people-text-group" key={group.title}>
+                <h3>{group.title}</h3>
+                <ul>{group.people.map(([name, role]) => <li key={`${group.title}-${name}`}><strong>{name}</strong><span>{role}</span></li>)}</ul>
+              </section>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="people-employment"><div className="shell compact-callout"><div><p className="eyebrow">Interested in the work?</p><h2>Employment information is kept separate from the roster.</h2></div><TextLink href="/employment">View Employment</TextLink></div></section>
+    </div>
   )
 }
 

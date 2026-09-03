@@ -93,25 +93,25 @@ export const peopleGroups = [
   {
     title: 'Leadership and administration',
     people: [
-      ['Dawn Warner', 'Program Director & Kindergarten Lead Teacher'],
-      ['Laura Noonan', 'Assistant Director'],
-      ['Leigh Ann Yuen', 'Curriculum Coordinator'],
+      ['Dawn Warner', 'Program Director & Kindergarten Lead Teacher', '/images/people/dawn-warner.jpg'],
+      ['Laura Noonan', 'Assistant Director', '/images/people/laura-noonan.jpg'],
+      ['Leigh Ann Yuen', 'Curriculum Coordinator', '/images/people/leigh-ann-yuen.jpg'],
     ],
   },
   {
     title: 'Studio Two educators',
     people: [
-      ['Delia Gibson', 'Studio Two Lead Teacher'],
-      ['Sandra Miller', 'Studio Two Teacher'],
-      ['Francielen Ferreira', 'Studio Two Assistant Teacher'],
+      ['Delia Gibson', 'Studio Two Lead Teacher', '/images/people/delia-gibson.jpg'],
+      ['Sandra Miller', 'Studio Two Teacher', '/images/people/sandra-miller.jpg'],
+      ['Francielen Ferreira', 'Studio Two Assistant Teacher', '/images/people/francielen-ferreira.jpg'],
     ],
   },
   {
     title: 'Studio One educators',
     people: [
-      ['Trina Welch', 'Studio One Lead Teacher'],
-      ['Buffy Carroll', 'Studio One Teacher'],
-      ['Krista Brown', 'Studio One Assistant Teacher'],
+      ['Trina Welch', 'Studio One Lead Teacher', '/images/people/trina-welch.jpg'],
+      ['Buffy Carroll', 'Studio One Teacher', '/images/people/buffy-carroll.jpg'],
+      ['Krista Brown', 'Studio One Assistant Teacher', '/images/people/krista-brown.jpg'],
     ],
   },
   {
