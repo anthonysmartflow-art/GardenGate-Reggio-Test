@@ -14,6 +14,7 @@
   --black: #000000;
   --muted: #4d555c;
   --line: #aeb8c0;
+  --photo-border: 3px solid var(--blue);
   --serif: 'Literata', Georgia, serif;
   --sans: 'Atkinson Hyperlegible', Arial, sans-serif;
   --shell: min(1300px, calc(100vw - 64px));
@@ -71,6 +72,15 @@ a:hover {
 img {
   display: block;
   max-width: 100%;
+}
+
+main img[src^='/images/'] {
+  border: var(--photo-border);
+}
+
+.circle-media img,
+.round-media img {
+  border-radius: inherit;
 }
 
 figure,
