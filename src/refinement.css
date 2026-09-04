@@ -25,6 +25,70 @@ main img[src^='/images/'] {
   border: 0;
 }
 
+/* Documentary photo accents connect selected images to the Garden Gate palette
+   without turning every photograph into the same bordered card. */
+.highlight-photo,
+.home-program-photo,
+.community-story--place > figure,
+.program-entry > figure,
+.about-opening > figure,
+.about-place > figure,
+.person-profile figure,
+.utility-opening > figure,
+.support-opening > figure,
+.support-history > figure,
+.educator-opening > figure,
+.employment-opening > figure,
+.contact-opening > figure {
+  position: relative;
+  isolation: isolate;
+}
+
+.community-story--place > figure::before,
+.about-opening > figure::before,
+.contact-opening > figure::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 18px -16px -16px 18px;
+  background: var(--pale-blue-strong);
+}
+
+.about-place > figure::before,
+.support-history > figure::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  bottom: -16px;
+  left: -16px;
+  width: 62%;
+  height: 58%;
+  background: var(--blue);
+}
+
+.utility-opening > figure,
+.support-opening > figure,
+.educator-opening > figure,
+.employment-opening > figure {
+  padding: 10px;
+  border-top: 5px solid var(--blue);
+  background: var(--pale-blue);
+}
+
+.highlight-photo img {
+  box-shadow: 14px 14px 0 var(--blue);
+}
+
+.home-program-photo img {
+  box-shadow: 12px 12px 0 var(--pale-blue-strong);
+}
+
+.person-profile figure {
+  padding: 8px 8px 0;
+  border-top: 4px solid var(--blue);
+  background: var(--pale-blue);
+}
+
 main h1 {
   max-width: 14ch;
   font-size: clamp(3rem, 4.5vw, 4rem);
@@ -440,6 +504,14 @@ figcaption,
   display: block;
 }
 
+.trust-list li {
+  min-width: 0;
+  min-height: 0;
+  display: block;
+  padding: 0;
+  border: 0;
+}
+
 .trust-list strong {
   margin-bottom: 6px;
   font-size: 1.05rem;
@@ -587,6 +659,18 @@ figcaption,
   width: 100%;
   height: 280px;
   object-fit: cover;
+}
+
+.program-entry > figure {
+  padding: 10px;
+  border-left: 5px solid var(--blue);
+  background: var(--pale-blue);
+}
+
+.program-entry:nth-child(even) > figure {
+  border-right: 5px solid var(--blue);
+  border-left: 0;
+  background: var(--gray);
 }
 
 .program-entry:nth-child(2) figure img,
@@ -1551,6 +1635,24 @@ figcaption,
   .people-cohort {
     grid-template-columns: 180px minmax(0, 1fr);
   }
+
+  .community-story--place .trust-list {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .community-story--place .trust-list li {
+    display: grid;
+    grid-template-columns: minmax(104px, 0.48fr) minmax(0, 1.52fr);
+    gap: 18px;
+    align-items: start;
+    padding-block: 12px;
+    border-bottom: 1px solid var(--line-soft);
+  }
+
+  .community-story--place .trust-list strong {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 820px) {
@@ -1712,6 +1814,18 @@ figcaption,
 
   .community-story figure img {
     height: 430px;
+  }
+
+  .community-story--place > figure::before,
+  .about-opening > figure::before,
+  .contact-opening > figure::before {
+    inset: 10px -8px -10px 10px;
+  }
+
+  .about-place > figure::before,
+  .support-history > figure::before {
+    bottom: -10px;
+    left: -8px;
   }
 
   .community-story--belonging figure img {
@@ -1956,6 +2070,11 @@ figcaption,
 
   .trust-list {
     grid-template-columns: 1fr;
+  }
+
+  .community-story--place .trust-list li {
+    grid-template-columns: 1fr;
+    gap: 3px;
   }
 
   .home-news-grid,

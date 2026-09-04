@@ -261,12 +261,21 @@ h3 {
   letter-spacing: -0.035em;
 }
 
+.wordmark strong {
+  font-size: 1.55rem;
+}
+
 .wordmark span,
 .mobile-wordmark span,
 .footer-wordmark span {
   margin-top: 4px;
   font-size: 0.64rem;
   letter-spacing: 0.025em;
+}
+
+.wordmark span {
+  margin-top: 5px;
+  font-size: 0.72rem;
 }
 
 .main-links {
@@ -1100,7 +1109,11 @@ h3 {
   }
 
   .mobile-wordmark strong {
-    font-size: 1.18rem;
+    font-size: 1.42rem;
+  }
+
+  .mobile-wordmark span {
+    font-size: 0.68rem;
   }
 
   .mobile-actions {
@@ -1435,15 +1448,15 @@ h3 {
   }
 
   .mobile-wordmark {
-    max-width: 120px;
+    max-width: 145px;
   }
 
   .mobile-wordmark strong {
-    font-size: 1.02rem;
+    font-size: 1.28rem;
   }
 
   .mobile-wordmark span {
-    font-size: 0.55rem;
+    font-size: 0.61rem;
   }
 
   .mobile-actions {
@@ -1691,7 +1704,11 @@ h3 {
   }
 
   .mobile-wordmark {
-    max-width: 90px;
+    max-width: 112px;
+  }
+
+  .mobile-wordmark strong {
+    font-size: 1.18rem;
   }
 
   .mobile-wordmark span {
