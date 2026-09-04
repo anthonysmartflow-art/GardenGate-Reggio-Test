@@ -210,9 +210,9 @@ export function Footer() {
   )
 }
 
-export function PageHero({ eyebrow, title, intro, image, alt, children, compact = false }) {
+export function PageHero({ eyebrow, title, intro, image, alt, children, compact = false, className = '' }) {
   return (
-    <section className={`page-hero shell ${compact ? 'page-hero--compact' : ''}`}>
+    <section className={`page-hero shell ${compact ? 'page-hero--compact' : ''} ${className}`.trim()}>
       <div className="page-hero__copy"><p className="eyebrow">{eyebrow}</p><h1>{title}</h1><p className="page-hero__intro">{intro}</p>{children}</div>
       {image && <figure className="page-hero__media"><img src={image} alt={alt} fetchPriority="high" /></figure>}
     </section>
@@ -220,7 +220,7 @@ export function PageHero({ eyebrow, title, intro, image, alt, children, compact 
 }
 
 export function OwnerNotice({ children }) {
-  return <aside className="owner-notice shell" aria-label="Launch verification note"><strong>Launch verification needed</strong><p>{children}</p></aside>
+  return <aside className="owner-notice shell" aria-label="What Garden Gate is confirming"><strong>What we’re confirming</strong><p>{children}</p></aside>
 }
 
 export function SectionIntro({ eyebrow, title, children, align = 'left' }) {

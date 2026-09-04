@@ -11,11 +11,8 @@ const { chromium } = await import(playwrightSpecifier)
 const baseUrl = process.env.GARDEN_GATE_QA_URL || 'http://127.0.0.1:4171'
 const outputRoot = resolve('verification')
 const screenshotRoot = resolve(outputRoot, 'screenshots')
-const representativeRecords = [
-  `/news/${archiveRecords[0].slug}`,
-  '/news/baby-cow-scholarship-fund',
-]
-const routes = [...fixedRoutes, ...representativeRecords]
+const recordRoutes = archiveRecords.map((record) => `/news/${record.slug}`)
+const routes = [...fixedRoutes, ...recordRoutes]
 const viewports = [
   ['desktop', 1440, 900],
   ['laptop', 1024, 768],
@@ -69,6 +66,9 @@ for (const [viewportName, width, height] of viewports) {
       clientWidth: document.documentElement.clientWidth,
       brokenImages: [...document.images].filter((image) => !image.complete || image.naturalWidth === 0).map((image) => image.src),
       missingAlt: [...document.images].filter((image) => !image.hasAttribute('alt')).map((image) => image.src),
+      duplicateImageSources: [...document.images]
+        .map((image) => new URL(image.currentSrc || image.src, window.location.href).pathname)
+        .filter((source, index, sources) => source.startsWith('/images/') && sources.indexOf(source) !== index),
       portugueseLinks: [...document.querySelectorAll('a')].filter((link) => link.textContent.includes('Em Português')).map((link) => link.href),
       donateHrefs: [...document.querySelectorAll('a')].filter((link) => link.textContent.trim() === 'Donate').map((link) => link.href),
     }))
@@ -96,7 +96,10 @@ const interactionPage = await interactionContext.newPage()
 await interactionPage.goto(baseUrl, { waitUntil: 'networkidle' })
 const menuButton = interactionPage.locator('.menu-button')
 await menuButton.click()
+await interactionPage.waitForFunction(() => document.activeElement?.closest('#mobile-menu') !== null)
 const menuOpen = await menuButton.getAttribute('aria-expanded')
+const bodyScrollLocked = await interactionPage.evaluate(() => document.body.style.overflow === 'hidden')
+const focusTransferred = await interactionPage.evaluate(() => document.activeElement?.closest('#mobile-menu') !== null)
 const mobileLabels = await interactionPage.locator('#mobile-menu a, #mobile-menu .menu-language').allTextContents()
 await interactionPage.keyboard.press('Escape')
 await interactionPage.locator('#mobile-menu').waitFor({ state: 'detached' })
@@ -104,11 +107,23 @@ await interactionPage.evaluate(() => new Promise((resolveFrame) => window.reques
 const menuClosed = await menuButton.getAttribute('aria-expanded')
 const focusRestored = await interactionPage.evaluate(() => document.activeElement?.classList.contains('menu-button'))
 
+await menuButton.click()
+await interactionPage.locator('#mobile-menu a[href="/programs"]').click()
+await interactionPage.locator('#mobile-menu').waitFor({ state: 'detached' })
+const routeChangeClosed = new URL(interactionPage.url()).pathname === '/programs'
+
 await interactionPage.setViewportSize({ width: 1440, height: 900 })
 await interactionPage.goto(baseUrl, { waitUntil: 'networkidle' })
 const desktopUtility = await interactionPage.locator('.utility-nav a').allTextContents()
 const desktopMain = await interactionPage.locator('.main-links > li > a, .main-links .about-control > a').allTextContents()
 const portugueseTag = await interactionPage.locator('.language-unavailable').evaluate((element) => element.tagName)
+const aboutButton = interactionPage.locator('.about-control button')
+await aboutButton.click()
+const aboutOpen = await aboutButton.getAttribute('aria-expanded')
+const aboutPeopleHref = await interactionPage.locator('#desktop-about-submenu a').getAttribute('href')
+await interactionPage.keyboard.press('Escape')
+const aboutClosed = await aboutButton.getAttribute('aria-expanded')
+const aboutFocusRestored = await interactionPage.evaluate(() => document.activeElement?.closest('.about-control')?.querySelector('button') === document.activeElement)
 
 const redirectResults = []
 for (const [from, to] of Object.entries(legacyRedirects)) {
@@ -124,11 +139,15 @@ const summary = {
   generatedAt: new Date().toISOString(),
   routeChecks: results,
   consoleErrors,
-  mobileMenu: { menuOpen, menuClosed, focusRestored, labels: mobileLabels.map((label) => label.trim().replace(/\s+/g, ' ')) },
+  mobileMenu: { menuOpen, menuClosed, focusRestored, focusTransferred, bodyScrollLocked, routeChangeClosed, labels: mobileLabels.map((label) => label.trim().replace(/\s+/g, ' ')) },
   desktopNavigation: {
     utility: desktopUtility.map((label) => label.trim()),
     main: desktopMain.map((label) => label.trim()),
     portugueseTag,
+    aboutOpen,
+    aboutClosed,
+    aboutFocusRestored,
+    aboutPeopleHref,
   },
   redirects: redirectResults,
 }
@@ -138,12 +157,12 @@ await copyFile(resolve(screenshotRoot, 'desktop', 'home.png'), resolve(outputRoo
 await copyFile(resolve(screenshotRoot, 'mobile', 'home.png'), resolve(outputRoot, 'home-mobile.png'))
 
 const failures = [
-  ...results.filter((item) => item.status !== 200 || item.h1Count !== 1 || item.overflow || item.brokenImages.length || item.missingAlt.length || item.portugueseLinks.length),
+  ...results.filter((item) => item.status !== 200 || item.h1Count !== 1 || item.overflow || item.brokenImages.length || item.missingAlt.length || item.duplicateImageSources.length || item.portugueseLinks.length),
   ...redirectResults.filter((item) => item.actual !== item.expected),
 ]
 
-if (consoleErrors.length || failures.length || menuOpen !== 'true' || menuClosed !== 'false' || !focusRestored) {
-  console.error(JSON.stringify({ failures, consoleErrors, menuOpen, menuClosed, focusRestored }, null, 2))
+if (consoleErrors.length || failures.length || menuOpen !== 'true' || menuClosed !== 'false' || !focusRestored || !focusTransferred || !bodyScrollLocked || !routeChangeClosed || aboutOpen !== 'true' || aboutClosed !== 'false' || !aboutFocusRestored || aboutPeopleHref !== '/about/people') {
+  console.error(JSON.stringify({ failures, consoleErrors, menuOpen, menuClosed, focusRestored, focusTransferred, bodyScrollLocked, routeChangeClosed, aboutOpen, aboutClosed, aboutFocusRestored, aboutPeopleHref }, null, 2))
   process.exitCode = 1
 } else {
   console.log(`Checked ${results.length} route/viewport combinations, ${redirectResults.length} redirects, and mobile menu behavior.`)
